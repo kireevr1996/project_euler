@@ -1,18 +1,14 @@
-import math as m
-
 def q5(endnum):
 
-""" Create a list with numbers from 1 to a 100
   list = []
-  for i in range (1, endnum + 1):
-      list.append(i)
-    
-""" Create a list with squares of earlier created numbers    
   sq_list = []
-  for ii in list:
-    square = ii**2
-    sq_list.append(square)
   
+  for i in range (endnum + 1):
+  """ Create a list with numbers from 1 to a 100
+    list.append(i)
+  """ Create a list with squares of earlier created numbers   
+    sq_list.append(i**2)
+    
 """ Get the sum of the list with squared number
   sum_of_squares = sum(sq_list)
   
